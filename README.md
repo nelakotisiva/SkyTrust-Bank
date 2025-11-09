@@ -48,34 +48,34 @@ This project enables users to create accounts, log in, deposit/withdraw money, t
 ## 📂 Project Structure
 
 SkyTrust-Bank/
-│── src/
-│ ├── Com.pack.Controller/
-│ │ ├── LoginServlet.java
-│ │ ├── RegisterServlet.java
-│ │ ├── DepositServlet.java
-│ │ ├── WithdrawServlet.java
-│ │ ├── TransferServlet.java
-│ │ ├── BalanceServlet.java
-│ │ └── StatementServlet.java
-│ │
-│ ├── model.com/
-│ │ ├── Dblogic.java
-│ │ ├── User.java
-│ │ └── Transcation.java
-│ │
-│ └── Dbconn.com/
-│ └── DbConccetion.java
+├── src/
+│   ├── Com.pack.Controller/          # All Servlets (Controllers)
+│   │   ├── LoginServlet.java
+│   │   ├── RegisterServlet.java
+│   │   ├── DepositServlet.java
+│   │   ├── WithdrawServlet.java
+│   │   ├── TransferServlet.java
+│   │   ├── BalanceServlet.java
+│   │   └── StatementServlet.java
+│   │
+│   ├── model.com/                    # Data Models + DB Logic
+│   │   ├── Dblogic.java
+│   │   ├── User.java
+│   │   └── Transcation.java
+│   │
+│   └── Dbconn.com/                   # Database Connection Utility
+│       └── DbConccetion.java
 │
-│── WebContent/ or webapp/
-│ ├── index.html
-│ ├── login.jsp
-│ ├── register.jsp
-│ ├── dashboard.jsp
-│ ├── deposit.jsp
-│ ├── withdraw.jsp
-│ ├── transfer.jsp
-│ ├── statement.jsp
-│ ├── success.jsp
-│ └── error.jsp
+├── WebContent/ (or webapp/)          # Frontend JSP + HTML
+│   ├── index.html
+│   ├── login.jsp
+│   ├── register.jsp
+│   ├── dashboard.jsp
+│   ├── deposit.jsp
+│   ├── withdraw.jsp
+│   ├── transfer.jsp
+│   ├── statement.jsp
+│   ├── success.jsp
+│   └── error.jsp
 │
-└── README.md
+└── README.md                          # Project Documentation
