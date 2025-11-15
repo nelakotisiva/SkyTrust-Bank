@@ -94,9 +94,7 @@ Update DB credentials in DbConccetion.java
 
 Run on Tomcat
 
-Open in browser:
 
-http://localhost:8080/SkyTrustBank/index.html
 
 ✅ Project Summary
 
